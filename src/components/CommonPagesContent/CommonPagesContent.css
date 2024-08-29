@@ -1,0 +1,60 @@
+.CommonPagesContent {
+  position: relative;
+  top: 72px;
+  padding: 70px;
+  background-color: #e3e3e3;
+  text-align: center;
+}
+.CommonPagesContent_heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+@media (max-width: 768px) {
+  .CommonPagesContent {
+    padding: 30px;
+  }
+  .CommonPagesContent_heading {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .CommonPagesContent {
+    padding: 20px;
+  }
+  .CommonPagesContent_heading {
+    font-size: 18px;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+  }
+}
+@media (max-width: 220px) {
+  .CommonPagesContent {
+    padding: 16px;
+  }
+  .CommonPagesContent_heading {
+    font-size: 16px;
+    margin-top: 80px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+}
+@media (max-width: 185px) {
+  .CommonPagesContent {
+    padding: 14px;
+  }
+  .CommonPagesContent_heading {
+    font-size: 14px;
+    margin-top: 110px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }
+}
+.about_heading {
+  color: yellow;
+}
